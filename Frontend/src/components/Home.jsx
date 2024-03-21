@@ -45,7 +45,7 @@ function Home() {
             </Link>
           </div>
           <div className="login">
-            <button class="button-64" role="button"><span class="text">LOGIN</span></button>
+          <Link to="/login"><button class="button-64" role="button"><span class="text">LOGIN</span></button></Link>
           </div>
         </nav>
         <div className="homeContainer">
