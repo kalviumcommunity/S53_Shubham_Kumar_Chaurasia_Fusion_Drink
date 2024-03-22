@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import '../App.css';
 
 const LoginPage = () => {
@@ -8,7 +9,7 @@ const LoginPage = () => {
         <div className="logincontainer">
           <div className="heading">
             <h1>WELCOME BACK</h1>
-            <h4>New User? Sign Up Here!</h4>
+            <h4>New User? <Link to="/signup">Sign Up Here!</Link></h4>
           </div>
           <div className="logininputs">
             <form>

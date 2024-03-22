@@ -1,15 +1,4 @@
-import { Link } from "react-router-dom"
-import "../App.css"
-
-function Home() {
-  return (
-    <>
-      <div className="homebody">
-        <nav className="homenavbar">
-          <div className="navbar-brand">
-            <Link to="/home">
-              <div id="logo">
-              <svg width="200" height="auto" viewBox="0 0 1018 299" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1018" height="299" viewBox="0 0 1018 299" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M575.443 55C575.866 55.9492 576.74 57.1697 577.988 58.4147C579.757 60.1825 582.174 62.0446 584.719 63.6611C587.264 65.2824 589.927 66.668 592.148 67.513C593.258 67.9257 594.271 68.2107 595.066 68.3286C595.401 68.3778 595.695 68.3974 595.941 68.3876C593.76 65.0662 590.399 61.8667 586.655 59.4327C582.99 57.0498 578.981 55.4137 575.443 55ZM573.664 55.4058C569.567 58.174 568.162 62.9044 567.228 67.5916C568.024 69.2916 570.707 72.1413 574.234 74.6765C577.831 77.2609 582.282 79.5996 586.37 80.6019C589.76 79.7372 591.883 78.0077 593.376 75.8754C594.595 74.1459 595.381 72.1413 596 70.1662C595.617 70.176 595.214 70.1367 594.801 70.0777C593.819 69.9402 592.718 69.6159 591.519 69.1639C589.298 68.3188 586.783 67.0217 584.316 65.4986L579.157 70.2251L581.555 63.6611C579.757 62.3787 578.096 61.0197 576.74 59.6646C575.296 58.227 574.156 56.8248 573.664 55.4058ZM568.427 72.1118L555.084 87.9816L555.062 88.0111C555.013 88.0602 555 88.07 555 88.1781C555 88.2862 555.028 88.4926 555.142 88.7677C555.373 89.318 555.921 90.1041 556.7 90.9492C556.756 91.0081 556.816 91.0769 556.875 91.1359L559.529 88.8856L557.629 91.8925C559.153 93.3665 561.185 94.9682 563.327 96.3832C565.4 97.7589 567.592 98.9676 569.478 99.7537L573.193 92.7474L572.004 100.569C572.593 100.697 573.104 100.736 573.468 100.707C574.057 100.648 574.215 100.53 574.342 100.206L574.352 100.186L582.921 81.388C582.096 81.0834 581.26 80.7395 580.435 80.3562L577.752 82.9701L578.912 79.6192C576.887 78.5776 574.952 77.369 573.203 76.1112C571.365 74.7945 569.734 73.4384 568.427 72.1118Z" fill="#F3B9BE"/>
 <g filter="url(#filter0_d_2014_3)">
 <rect x="4" width="291" height="291" rx="92" fill="url(#paint0_linear_2014_3)"/>
@@ -34,26 +23,3 @@ function Home() {
 </linearGradient>
 </defs>
 </svg>
-
-              </div>
-            </Link>
-          </div>
-          <div className="login">
-          <Link to="/login"><button class="button-64" role="button"><span class="text">LOGIN</span></button></Link>
-          </div>
-        </nav>
-        <div className="homeContainer">
-          <h1>The best TASTE <br /> come after MIXING</h1>
-          <h4>Turn your home into a cocktail lounge with our easy-to-follow <br /> recipes for cocktail perfection.</h4>
-        </div>
-      </div>
-    </>
-  )
-}
-
-export default Home
-
-// BG IMAGE LINK
-// https://media.istockphoto.com/id/1357420132/photo/mans-hand-support-flying-glass-of-cocktail-drink-with-splash-on-dark-blue-background-gravity.jpg?s=612x612&w=0&k=20&c=DYpj6W5JZZ6eBsNqNFKogLX1MW7GwtNbujJRCTXlY9k=
-// BG IMAGE of Login Page
-// https://media.istockphoto.com/id/534739445/photo/pouring-martini.jpg?s=612x612&w=0&k=20&c=aKQOxHkyJ05Wmdr-mmxaQ17p1Yf0UmUlWvLVbfwgvMI=
