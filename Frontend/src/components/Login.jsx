@@ -10,9 +10,8 @@ const LoginPage = () => {
             <h1>WELCOME BACK</h1>
             <h4>New User? Sign Up Here!</h4>
           </div>
-          {/* <div className="logininputs">
+          <div className="logininputs">
             <form>
-              
               <div className="wave-group">
                 <input required type="text" className="input" />
                 <span className="bar"></span>
@@ -27,7 +26,7 @@ const LoginPage = () => {
                   <span className="label-char" style={{ '--index': 7 }}>e</span>
                 </label>
               </div>
-              <div className="wave-group">
+              <div className="wave-group" id='passmarginbottom'>
                 <input required type="text" className="input" />
                 <span className="bar"></span>
                 <label className="label">
@@ -43,7 +42,7 @@ const LoginPage = () => {
               </div> 
               <button type="submit">LOGIN</button>
             </form>
-          </div> */}
+          </div>
           <div className="orsignupwith">
             <div className="boder border1"><hr /></div>
             <div className="signuptext">or Sign Up with</div>

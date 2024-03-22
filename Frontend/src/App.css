@@ -100,8 +100,8 @@ body {
   align-items: center;
 
   width: 100vw;
-  background-image: url("blob:https://web.whatsapp.com/d4a296dd-f433-4a5e-bb67-50ca29ef822a");
-  background-image: url("./Images/BGI-login.jpeg");
+  /* background-image: url("blob:https://web.whatsapp.com/d4a296dd-f433-4a5e-bb67-50ca29ef822a"); */
+  /* background-image: url("./Images/BGI-login.jpeg"); */
   background-repeat: no-repeat;
   background-size: contain;
   /* background-position: bottom 20%; */
@@ -109,10 +109,10 @@ body {
 
 .logincontainer {
   background-color: #000000a0;
-  margin-top: 3%;
+  margin-top: 2%;
   margin-left: 5%;
   width: 40%;
-  /* height: 600px; */
+  height: 90%;
   border-radius: 16px;
   display: flex;
   flex-direction: column;
@@ -143,31 +143,12 @@ div form,
   text-align: center;
 }
 
-form input {
-  width: 85%;
-  padding: 10px;
-  margin-bottom: 10px;
-  height: 0.1px;
-  background-color: #515151a0;
-}
-
-form button {
-  font-size: 1.3em;
-  background-color: white;
-  color: black;
-  width: 25%;
-  border-radius: 75px;
-  padding: 10px;
-  margin-top: 10px;
-  border: none;
-  cursor: pointer;
-}
-
 .orsignupwith {
   display: flex;
   justify-content: space-between;
   width: 80%;
   color: #fff;
+  margin-top: 47px;
 }
 
 .border {
@@ -179,11 +160,13 @@ form button {
   border: 1px solid #ffffff;
   transform: matrix(1, 0, 0.01, 1, 0, 0);
 }
-hr{
+
+hr {
   color: white;
-  width: 90px;
+  width: 150px;
   margin-top: 12px;
 }
+
 .googleappleicons {
   width: 100%;
   display: flex;
@@ -207,19 +190,55 @@ div div img {
   height: 50px;
 }
 
+form {
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+form input {
+  width: 85%;
+  padding: 10px;
+  height: 0.1px;
+  background-color: #515151a0;
+}
+
+form button {
+  font-size: 1.3em;
+  background-color: white;
+  color: black;
+  width: 200px;
+  border-radius: 75px;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+
 /* login and sigup page */
 /* background-image: url('https://wallpapercave.com/wp/wp2172683.jpg'); */
 
 /* input style */
-/* .wave-group {
-  position: relative;
+.logininputs {
+  height: 200px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
+#passmarginbottom {
+  margin-bottom: 23px;
+}
+
+.wave-group {
+  position: relative;
+  margin: 50px;
+}
 .wave-group .input {
   font-size: 16px;
   padding: 10px 10px 10px 5px;
   display: block;
-  width: 200px;
+  width: 350px;
   border: none;
   border-bottom: 1px solid #515151;
   background: transparent;
@@ -235,9 +254,9 @@ div div img {
   font-weight: normal;
   position: absolute;
   pointer-events: none;
-  left: 5px;
-  top: 10px;
-  display: flex;
+  left: 10px;
+  top: -25px;
+  /* display: flex; */
 }
 
 .wave-group .label-char {
@@ -247,9 +266,8 @@ div div img {
 
 .wave-group .input:focus ~ label .label-char,
 .wave-group .input:valid ~ label .label-char {
-  transform: translateY(-20px);
+  transform: translateY(-100px);
   font-size: 14px;
-  color: #5264ae;
 }
 
 .wave-group .bar {
@@ -263,9 +281,8 @@ div div img {
   content: "";
   height: 2px;
   width: 0;
-  bottom: 1px;
+  bottom: 10px;
   position: absolute;
-  background: #5264ae;
   transition: 0.2s ease all;
   -moz-transition: 0.2s ease all;
   -webkit-transition: 0.2s ease all;
@@ -282,4 +299,4 @@ div div img {
 .wave-group .input:focus ~ .bar:before,
 .wave-group .input:focus ~ .bar:after {
   width: 50%;
-} */
+}
