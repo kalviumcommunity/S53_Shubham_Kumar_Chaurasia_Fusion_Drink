@@ -300,3 +300,53 @@ form button {
 .wave-group .input:focus ~ .bar:after {
   width: 50%;
 }
+
+/* Dashboard */
+
+.dashboardbody{
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(185, 94, 94);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.firstContainer{
+  background-color: black;
+  height: 30%;
+  width: 90%;
+  border-radius: 25px;
+  margin-top: 40px;
+}
+
+.randomCocktails{
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  width: 100vw;
+  margin-top: 40px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ;
+}
+
+.randomcard{
+  height: 100%;
+  /* width: 50%; */
+  background-color: #1db643;
+  border-radius: 25px;
+}
+
+
+
+
+
+
+.dashboardnav{
+  height: 10%;
+  width: 100vw;
+  background-color: #525252;
+  display: flex;
+  justify-content: space-around;
+}
