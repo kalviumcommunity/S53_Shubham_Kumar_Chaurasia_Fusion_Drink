@@ -326,21 +326,37 @@ form button {
 .randomCocktails{
   display: flex;
   justify-content: space-around;
-  height: 300px;
-  width: 100vw;
+  height: 30%;
+  width: 95vw;
   margin-top: 40px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ;
 }
 
 .randomcard{
   height: 100%;
-  /* width: 50%; */
+  width: 20%;
   background-color: #1db643;
   border-radius: 25px;
 }
 
+.alcoholcon{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  /* height: 50%; */
+  width: 95vw;
+}
 
+.alcobox{
+  /* height: 80%;
+  width: 50%; */
+  background-color: #ff0000;
+  border-radius: 25px;
+}
 
-
+.alcoimage img{
+  height: 100px;
+  width: 200px;
+}
 
 
 .dashboardnav{
