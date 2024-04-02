@@ -304,7 +304,7 @@ form button {
 /* Dashboard */
 
 .dashboardbody{
-  height: 100vh;
+  height: 100em;
   width: 100vw;
   margin: 0;
   padding: 0;
@@ -312,12 +312,20 @@ form button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
+  overflow: hidden;
+}
+
+.dashboardnav{
+  height: 50px;
+  width: 100vw;
+  background-color: #525252;
+  display: flex;
+  justify-content: space-around;
 }
 
 .firstContainer{
   background-color: black;
-  height: 30%;
+  height: 200px;
   width: 90%;
   border-radius: 25px;
   margin-top: 40px;
@@ -326,7 +334,7 @@ form button {
 .randomCocktails{
   display: flex;
   justify-content: space-around;
-  height: 30%;
+  height: 200px;
   width: 95vw;
   margin-top: 40px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ;
 }
@@ -342,7 +350,7 @@ form button {
   margin-top: 40px;
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  /* height: 50%; */
+  height: 50px;
   width: 95vw;
 }
 
@@ -358,11 +366,3 @@ form button {
   width: 200px;
 }
 
-
-.dashboardnav{
-  height: 10%;
-  width: 100vw;
-  background-color: #525252;
-  display: flex;
-  justify-content: space-around;
-}
