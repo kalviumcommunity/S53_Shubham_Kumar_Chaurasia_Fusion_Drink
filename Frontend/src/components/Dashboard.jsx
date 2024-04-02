@@ -26,7 +26,7 @@ const DashboardPage = () => {
                 <div className="alcoholcon">
                     <div className="alcobox alcobox1">
                         <div className="alcoimage">
-                            <img src="https://us.123rf.com/450wm/ogovorka/ogovorka1701/ogovorka170100075/71044248-margarita-cocktail-with-lime-and-salt-glass-of-margarita-alcoholic-cocktail-on-black-background.jpg?ver=6" alt="alcoimage" />
+                            {/* <img src="https://us.123rf.com/450wm/ogovorka/ogovorka1701/ogovorka170100075/71044248-margarita-cocktail-with-lime-and-salt-glass-of-margarita-alcoholic-cocktail-on-black-background.jpg?ver=6" alt="alcoimage" /> */}
                         </div>
                         <div className="alconame">
                             <h2>Gin</h2>
