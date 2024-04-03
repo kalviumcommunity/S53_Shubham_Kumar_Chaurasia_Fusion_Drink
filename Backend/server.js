@@ -1,4 +1,5 @@
 const express = require('express');
+const dotenv = require("dotenv").config();
 const port = process.env.PUBLIC_PORT || 6009;
 
 const app = express();
@@ -6,7 +7,8 @@ const {ConnectToDB} = require("./db")
 
 app.use(express.json())
 
-// app.use("/data",route)
+app.use("/api/data", require("./"));
+app.use("/api/user", require("./userRoute"));
 
 ConnectToDB().then((mongoConnection)=>{
   app.get("/",(req,res)=>{
