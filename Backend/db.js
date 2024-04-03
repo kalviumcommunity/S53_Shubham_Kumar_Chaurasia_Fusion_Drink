@@ -17,7 +17,6 @@ async function ConnectToDB() {
     }
 }
 
-
 async function stopDatabase() {
   if (!mongoConnection) return;
 
