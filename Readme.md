@@ -1,28 +1,33 @@
-# [Fusion Drink](https://fusion-drink.netlify.app/)
+# [Fusion Drink](https://fusion_drink.netlify.app/)
+## Idea
 
-This website provides cocktail recipes, offering detailed instructions for mixing drinks like Old Monk. Users can also contribute their unique cocktail recipes to the collection.
+I am excited to present an innovative idea that has a chance to completely transform your consume drinks and cocktails. I like to introduce a you to Fusion drink, a platform which may change your way to enjoy drinks.
 
-<!-- ## **ABOUT**
+Finding the perfect cocktail can often be difficult. Weather it's for a party or a casual evening at home. It feels like searching for needle in a haystack. Fusion Drink is to change that narrative.
 
-Presenting “Fusion Drink” is your destination for all types of cocktails. Our website is a vibrant hub where supporters and beginners alike come together to explore the world of mixing, unlocking the secrets behind amazing drinks. 
+## About
 
-Immerse yourself in a sunshine of cocktail recipes carefully crafted to suit a variety of tastes and conditions. But Fusion Drink is more than simply a recipe site.
+It's a destination where you find all types of drinks also Mocktails (for non-alcoholic person). We have a collection of all types of Cocktail from Acient to Modern. We also think the cooperation and community have greate power. So, experience bartini person also share their own recipe/tricks for new bartini guys.
 
-Join our community, where users exchange ideas, troubleshoot mixology, and showcase their dazzling creations. From home bars to skilled professionals. -->
+## 10-Day roadmap
+To bring Fusion Drink, we have illustrated a 10-day roadmap:
 
+**Day 1:** Define project scope and goals.
 
-<!-- Usage (How to use this website) -->
+**Day 2:** Exploration and gather data.
 
+**Day 3:** Design wireframes and user interface mockups.
 
-## **DAY PLAN**
+**Day 4:** Set up the frontend structure and layout.
 
+**Day 5:** Implement basic frontend functionality.
 
-* **Day 1:** Finding an Idea and making a day plan to complete it. 
+**Day 6:** Develop backend infrastructure and database schema.
 
-* **Day 2:** Low-fid Design
+**Day 7:** Integrate frontend with backend for data fetching and display.
 
-* **Day 3:** High-fid Design
+**Day 8:** Test website functionality and perform debugging.
 
-* **Day 4:** Creating readme and Navbar 
+**Day 9:** Implement responsive design and optimize for various devices.
 
-* **Day 5:** Completing Landing Page
+**Day 10**: Final testing and deployment.
