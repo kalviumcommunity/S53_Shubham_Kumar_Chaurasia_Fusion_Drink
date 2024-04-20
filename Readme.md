@@ -3,11 +3,11 @@
 
 I am excited to present an innovative idea that has a chance to completely transform your consume drinks and cocktails. I like to introduce a you to Fusion drink, a platform which may change your way to enjoy drinks.
 
-Finding the perfect cocktail can often be difficult. Weather it's for a party or a casual evening at home. It feels like searching for needle in a haystack. Fusion Drink is to change that narrative.
+Finding the perfect cocktail can often be difficult. Whether it's for a party or a casual evening at home. It feels like searching for needle in a haystack. Fusion Drink is to change that narrative.
 
 ## About
 
-It's a destination where you find all types of drinks also Mocktails (for non-alcoholic person). We have a collection of all types of Cocktail from Acient to Modern. We also think the cooperation and community have greate power. So, experience bartini person also share their own recipe/tricks for new bartini guys.
+It's a destination where you find all types of drinks also Mocktails (for non-alcoholic person). We have a collection of all types of Cocktail from Ancient to Modern. We also think the cooperation and community have great power. So, experience bartending person also share their own recipe/tricks for new bartini guys.
 
 ## 10-Day roadmap
 To bring Fusion Drink, we have illustrated a 10-day roadmap:
