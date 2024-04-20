@@ -16,7 +16,7 @@ To bring Fusion Drink, we have illustrated a 10-day roadmap:
 
 **Day 2:** Exploration and gather data.
 
-**Day 3:** Design wireframes and user interface mockups.
+**Day 3:** Low and High fid design.
 
 **Day 4:** Set up the frontend structure and layout.
 
