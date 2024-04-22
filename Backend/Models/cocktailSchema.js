@@ -12,13 +12,13 @@ const cocktailSchema = mongoose.Schema(
       index: true,
     },
     about: {
-        type: String,
-        required: [true, "Please add About"],
-        min: [1, "Preparation time must be greater than zero"],
+      type: String,
+      required: [true, "Please add About"],
     },
     preperationTime: {
-        type: Number,
-        required: [true, "Please add Time"],
+      type: Number,
+      required: [true, "Please add Time"],
+      min: [1, "Preparation time must be greater than zero"],
     },
     rating: {
       type: Number,
@@ -34,7 +34,7 @@ const cocktailSchema = mongoose.Schema(
       type: [String],
       required: true
     },
-},
+  },
 );
 
 // module.exports = cocktailSchema;
