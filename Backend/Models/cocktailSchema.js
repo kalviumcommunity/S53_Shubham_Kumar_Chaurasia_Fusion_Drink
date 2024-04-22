@@ -15,7 +15,7 @@ const cocktailSchema = mongoose.Schema(
       type: String,
       required: [true, "Please add About"],
     },
-    preperationTime: {
+    preparationTime: {
       type: Number,
       required: [true, "Please add Time"],
       min: [1, "Preparation time must be greater than zero"],
@@ -23,7 +23,8 @@ const cocktailSchema = mongoose.Schema(
     rating: {
       type: Number,
       min: 0,
-      max: 5
+      max: 5,
+      default: 0,
     },
     ingredients: [{
       name: { type: String, required: true },
