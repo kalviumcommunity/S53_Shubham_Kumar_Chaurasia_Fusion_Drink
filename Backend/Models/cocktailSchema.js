@@ -9,10 +9,12 @@ const cocktailSchema = mongoose.Schema(
     name: {
       type: String,
       required: [true, "Please add Name"],
+      index: true,
     },
     about: {
         type: String,
         required: [true, "Please add About"],
+        min: [1, "Preparation time must be greater than zero"],
     },
     preperationTime: {
         type: Number,
