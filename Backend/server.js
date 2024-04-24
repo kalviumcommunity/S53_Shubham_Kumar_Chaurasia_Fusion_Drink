@@ -13,6 +13,10 @@ const port = process.env.PORT || 5000;
 app.use(express.json());
 app.use(cors());
 
+app.get('/',(req,res)=>{
+    res.send('Welcome to Backend server of Fusion Drink');
+})
+
 app.listen(port, (error) => {
     if (error) {
         console.error("Error starting the server:", error);
