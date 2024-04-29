@@ -1,205 +1,401 @@
 [
-    {
-      "image": "https://example.com/cocktail1.jpg",
-      "name": "Mojito",
-      "about": "A refreshing cocktail made with rum, mint, lime, sugar, and soda water.",
-      "preparationTime": 5,
-      "rating": 4.5,
-      "ingredients": [
-        {"name": "White rum", "quantity": "2", "unit": "ounces"},
-        {"name": "Fresh mint leaves", "quantity": "6", "unit": "leaves"},
-        {"name": "Lime", "quantity": "0.75", "unit": "ounce"},
-        {"name": "Sugar", "quantity": "2", "unit": "teaspoons"},
-        {"name": "Soda water", "quantity": "2", "unit": "ounces"}
-      ],
-      "steps_to_prepare": [
-        "In a glass, muddle mint leaves and lime juice with sugar.",
-        "Fill the glass with ice cubes.",
-        "Pour rum over the ice and top with soda water.",
-        "Stir gently and garnish with a mint sprig."
-      ]
-    },
-    {
-      "image": "https://example.com/cocktail2.jpg",
-      "name": "Martini",
-      "about": "A classic cocktail made with gin and vermouth, garnished with an olive or lemon twist.",
-      "preparationTime": 3,
-      "rating": 4.2,
-      "ingredients": [
-        {"name": "Gin", "quantity": "2.5", "unit": "ounces"},
-        {"name": "Dry vermouth", "quantity": "0.5", "unit": "ounce"},
-        {"name": "Olive or lemon twist", "quantity": "1"}
-      ],
-      "steps_to_prepare": [
-        "Fill a mixing glass with ice cubes.",
-        "Pour gin and vermouth into the glass.",
-        "Stir well until chilled.",
-        "Strain into a chilled martini glass.",
-        "Garnish with an olive or lemon twist."
-      ]
-    },
-    {
-      "image": "https://example.com/cocktail3.jpg",
-      "name": "Cosmopolitan",
-      "about": "A popular cocktail made with vodka, cranberry juice, triple sec, and fresh lime juice.",
-      "preparationTime": 4,
-      "rating": 4.3,
-      "ingredients": [
-        {"name": "Vodka", "quantity": "1.5", "unit": "ounces"},
-        {"name": "Cranberry juice", "quantity": "1", "unit": "ounce"},
-        {"name": "Triple sec", "quantity": "0.5", "unit": "ounce"},
-        {"name": "Fresh lime juice", "quantity": "0.5", "unit": "ounce"},
-        {"name": "Lime twist", "quantity": "1"}
-      ],
-      "steps_to_prepare": [
-        "Fill a shaker with ice cubes.",
-        "Pour vodka, cranberry juice, triple sec, and lime juice into the shaker.",
-        "Shake well until chilled.",
-        "Strain into a chilled martini glass.",
-        "Garnish with a lime twist." 
-      ]
-    },
-    {
-      "image": "https://example.com/cocktail4.jpg",
-      "name": "Margarita",
-      "about": "A classic Mexican cocktail made with tequila, lime juice, and triple sec.",
-      "preparationTime": 5,
-      "rating": 4.4,
-      "ingredients": [
-        {"name": "Tequila", "quantity": "2", "unit": "ounces"},
-        {"name": "Lime juice", "quantity": "1", "unit": "ounce"},
-        {"name": "Triple sec", "quantity": "0.5", "unit": "ounce"},
-        {"name": "Salt", "quantity": "1", "unit": "pinch"},
-        {"name": "Lime wedge", "quantity": "1"}
-      ],
-      "steps_to_prepare": [
-        "Rub the rim of a margarita glass with the lime wedge.",
-        "Dip the rim in salt to coat.",
-        "Fill a shaker with ice cubes.",
-        "Pour tequila, lime juice, and triple sec into the shaker.",
-        "Shake well and strain into the prepared glass over ice."
-      ]
-    },
-    {
-      "image": "https://example.com/cocktail5.jpg",
-      "name": "Pina Colada",
-      "about": "A tropical cocktail made with rum, coconut cream, and pineapple juice.",
-      "preparationTime": 5,
-      "rating": 4.6,
-      "ingredients": [
-        {"name": "White rum", "quantity": "1.5", "unit": "ounces"},
-        {"name": "Coconut cream", "quantity": "2", "unit": "ounces"},
-        {"name": "Pineapple juice", "quantity": "2", "unit": "ounces"},
-        {"name": "Pineapple wedge", "quantity": "1"}
-      ],
-      "steps_to_prepare": [
-        "Fill a blender with ice cubes.",
-        "Add rum, coconut cream, and pineapple juice to the blender.",
-        "Blend until smooth.",
-        "Pour into a chilled glass.",
-        "Garnish with a pineapple wedge."
-      ]
-    },
-    {
-      "image": "https://example.com/cocktail6.jpg",
-      "name": "Negroni",
-      "about": "A classic Italian cocktail made with gin, Campari, and sweet vermouth.",
-      "preparationTime": 3,
-      "rating": 4.1,
-      "ingredients": [
-        {"name": "Gin", "quantity": "1", "unit": "ounce"},
-        {"name": "Campari", "quantity": "1", "unit": "ounce"},
-        {"name": "Sweet vermouth", "quantity": "1", "unit": "ounce"},
-        {"name": "Orange twist", "quantity": "1"}
-      ],
-      "steps_to_prepare": [
-        "Fill a mixing glass with ice cubes.",
-        "Pour gin, Campari, and sweet vermouth into the glass.",
-        "Stir well until chilled.",
-        "Strain into a chilled glass filled with ice.",
-        "Garnish with an orange twist."
-      ]
-    },
-    {
-      "image": "https://example.com/cocktail7.jpg",
-      "name": "Old Fashioned",
-      "about": "A classic cocktail made with bourbon, sugar, Angostura bitters, and a twist of citrus rind.",
-      "preparationTime": 4,
-      "rating": 4.2,
-      "ingredients": [
-        {"name": "Bourbon", "quantity": "2", "unit": "ounces"},
-        {"name": "Sugar cube", "quantity": "1"},
-        {"name": "Angostura bitters", "quantity": "2", "unit": "dashes"},
-        {"name": "Orange twist", "quantity": "1"}
-      ],
-      "steps_to_prepare": [
-        "Place the sugar cube in an old fashioned glass.",
-        "Add bitters and a splash of water.",
-        "Muddle until the sugar is dissolved.",
-        "Fill the glass with ice cubes.",
-        "Pour bourbon over the ice and stir well.",
-        "Garnish with an orange twist."
-      ]
-    },
-    {
-      "image": "https://example.com/cocktail8.jpg",
-      "name": "Daiquiri",
-      "about": "A classic cocktail made with rum, lime juice, and simple syrup.",
-      "preparationTime": 3,
-      "rating": 4.3,
-      "ingredients": [
-        {"name": "White rum", "quantity": "2", "unit": "ounces"},
-        {"name": "Lime juice", "quantity": "1", "unit": "ounce"},
-        {"name": "Simple syrup", "quantity": "0.5", "unit": "ounce"},
-        {"name": "Lime wheel", "quantity": "1"}
-      ],
-      "steps_to_prepare": [
-        "Fill a shaker with ice cubes.",
-        "Pour rum, lime juice, and simple syrup into the shaker.",
-        "Shake well until chilled.",
-        "Strain into a chilled cocktail glass.",
-        "Garnish with a lime wheel."
-      ]
-    },
-    {
-      "image": "https://example.com/cocktail9.jpg",
-      "name": "Whiskey Sour",
-      "about": "A classic cocktail made with whiskey, lemon juice, and simple syrup.",
-      "preparationTime": 4,
-      "rating": 4.1,
-      "ingredients": [
-        {"name": "Bourbon or rye whiskey", "quantity": "2", "unit": "ounces"},
-        {"name": "Lemon juice", "quantity": "0.75", "unit": "ounce"},
-        {"name": "Simple syrup", "quantity": "0.5", "unit": "ounce"},
-        {"name": "Lemon wheel", "quantity": "1"},
-        {"name": "Maraschino cherry", "quantity": "1"}
-      ],
-      "steps_to_prepare": [
-        "Fill a shaker with ice cubes.",
-        "Pour whiskey, lemon juice, and simple syrup into the shaker.",
-        "Shake well until chilled.",
-        "Strain into a rocks glass filled with ice.",
-        "Garnish with a lemon wheel and a maraschino cherry."
-      ]
-    },
-    {
-      "image": "https://example.com/cocktail10.jpg",
-      "name": "Gin and Tonic",
-      "about": "A classic cocktail made with gin and tonic water, garnished with a lime wedge.",
-      "preparationTime": 2,
-      "rating": 4.5,
-      "ingredients": [
-        {"name": "Gin", "quantity": "2", "unit": "ounces"},
-        {"name": "Tonic water", "quantity": "4", "unit": "ounces"},
-        {"name": "Lime wedge", "quantity": "1"}
-      ],
-      "steps_to_prepare": [
-        "Fill a glass with ice cubes.",
-        "Pour gin over the ice.",
-        "Top with tonic water.",
-        "Stir gently.",
-        "Garnish with a lime wedge."
-      ]
-    }
-  ]
-  
+  {
+    "image": "https://example.com/cocktail1.jpg",
+    "name": "Mojito",
+    "about": "A refreshing cocktail made with rum, mint, lime, sugar, and soda water.",
+    "preparationTime": 5,
+    "rating": 4.5,
+    "ingredients": [
+      {
+        "name": "White rum",
+        "quantity": "2",
+        "unit": "ounces"
+      },
+      {
+        "name": "Fresh mint leaves",
+        "quantity": "6",
+        "unit": "leaves"
+      },
+      {
+        "name": "Lime",
+        "quantity": "0.75",
+        "unit": "ounce"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "2",
+        "unit": "teaspoons"
+      },
+      {
+        "name": "Soda water",
+        "quantity": "2",
+        "unit": "ounces"
+      }
+    ],
+    "steps_to_prepare": [
+      "In a glass, muddle mint leaves and lime juice with sugar.",
+      "Fill the glass with ice cubes.",
+      "Pour rum over the ice and top with soda water.",
+      "Stir gently and garnish with a mint sprig."
+    ]
+  },
+  {
+    "image": "https://example.com/cocktail2.jpg",
+    "name": "Martini",
+    "about": "A classic cocktail made with gin and vermouth, garnished with an olive or lemon twist.",
+    "preparationTime": 3,
+    "rating": 4.2,
+    "ingredients": [
+      {
+        "name": "Gin",
+        "quantity": "2.5",
+        "unit": "ounces"
+      },
+      {
+        "name": "Dry vermouth",
+        "quantity": "0.5",
+        "unit": "ounce"
+      },
+      {
+        "name": "Olive or lemon twist",
+        "quantity": "1"
+      }
+    ],
+    "steps_to_prepare": [
+      "Fill a mixing glass with ice cubes.",
+      "Pour gin and vermouth into the glass.",
+      "Stir well until chilled.",
+      "Strain into a chilled martini glass.",
+      "Garnish with an olive or lemon twist."
+    ]
+  },
+  {
+    "image": "https://example.com/cocktail3.jpg",
+    "name": "Cosmopolitan",
+    "about": "A popular cocktail made with vodka, cranberry juice, triple sec, and fresh lime juice.",
+    "preparationTime": 4,
+    "rating": 4.3,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "quantity": "1.5",
+        "unit": "ounces"
+      },
+      {
+        "name": "Cranberry juice",
+        "quantity": "1",
+        "unit": "ounce"
+      },
+      {
+        "name": "Triple sec",
+        "quantity": "0.5",
+        "unit": "ounce"
+      },
+      {
+        "name": "Fresh lime juice",
+        "quantity": "0.5",
+        "unit": "ounce"
+      },
+      {
+        "name": "Lime twist",
+        "quantity": "1"
+      }
+    ],
+    "steps_to_prepare": [
+      "Fill a shaker with ice cubes.",
+      "Pour vodka, cranberry juice, triple sec, and lime juice into the shaker.",
+      "Shake well until chilled.",
+      "Strain into a chilled martini glass.",
+      "Garnish with a lime twist."
+    ]
+  },
+  {
+    "image": "https://example.com/cocktail4.jpg",
+    "name": "Margarita",
+    "about": "A classic Mexican cocktail made with tequila, lime juice, and triple sec.",
+    "preparationTime": 5,
+    "rating": 4.4,
+    "ingredients": [
+      {
+        "name": "Tequila",
+        "quantity": "2",
+        "unit": "ounces"
+      },
+      {
+        "name": "Lime juice",
+        "quantity": "1",
+        "unit": "ounce"
+      },
+      {
+        "name": "Triple sec",
+        "quantity": "0.5",
+        "unit": "ounce"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1",
+        "unit": "pinch"
+      },
+      {
+        "name": "Lime wedge",
+        "quantity": "1"
+      }
+    ],
+    "steps_to_prepare": [
+      "Rub the rim of a margarita glass with the lime wedge.",
+      "Dip the rim in salt to coat.",
+      "Fill a shaker with ice cubes.",
+      "Pour tequila, lime juice, and triple sec into the shaker.",
+      "Shake well and strain into the prepared glass over ice."
+    ]
+  },
+  {
+    "image": "https://example.com/cocktail5.jpg",
+    "name": "Pina Colada",
+    "about": "A tropical cocktail made with rum, coconut cream, and pineapple juice.",
+    "preparationTime": 5,
+    "rating": 4.6,
+    "ingredients": [
+      {
+        "name": "White rum",
+        "quantity": "1.5",
+        "unit": "ounces"
+      },
+      {
+        "name": "Coconut cream",
+        "quantity": "2",
+        "unit": "ounces"
+      },
+      {
+        "name": "Pineapple juice",
+        "quantity": "2",
+        "unit": "ounces"
+      },
+      {
+        "name": "Pineapple wedge",
+        "quantity": "1"
+      }
+    ],
+    "steps_to_prepare": [
+      "Fill a blender with ice cubes.",
+      "Add rum, coconut cream, and pineapple juice to the blender.",
+      "Blend until smooth.",
+      "Pour into a chilled glass.",
+      "Garnish with a pineapple wedge."
+    ]
+  },
+  {
+    "image": "https://example.com/cocktail6.jpg",
+    "name": "Negroni",
+    "about": "A classic Italian cocktail made with gin, Campari, and sweet vermouth.",
+    "preparationTime": 3,
+    "rating": 4.1,
+    "ingredients": [
+      {
+        "name": "Gin",
+        "quantity": "1",
+        "unit": "ounce"
+      },
+      {
+        "name": "Campari",
+        "quantity": "1",
+        "unit": "ounce"
+      },
+      {
+        "name": "Sweet vermouth",
+        "quantity": "1",
+        "unit": "ounce"
+      },
+      {
+        "name": "Orange twist",
+        "quantity": "1"
+      }
+    ],
+    "steps_to_prepare": [
+      "Fill a mixing glass with ice cubes.",
+      "Pour gin, Campari, and sweet vermouth into the glass.",
+      "Stir well until chilled.",
+      "Strain into a chilled glass filled with ice.",
+      "Garnish with an orange twist."
+    ]
+  },
+  {
+    "image": "https://example.com/cocktail7.jpg",
+    "name": "Old Fashioned",
+    "about": "A classic cocktail made with bourbon, sugar, Angostura bitters, and a twist of citrus rind.",
+    "preparationTime": 4,
+    "rating": 4.2,
+    "ingredients": [
+      {
+        "name": "Bourbon",
+        "quantity": "2",
+        "unit": "ounces"
+      },
+      {
+        "name": "Sugar cube",
+        "quantity": "1"
+      },
+      {
+        "name": "Angostura bitters",
+        "quantity": "2",
+        "unit": "dashes"
+      },
+      {
+        "name": "Orange twist",
+        "quantity": "1"
+      }
+    ],
+    "steps_to_prepare": [
+      "Place the sugar cube in an old fashioned glass.",
+      "Add bitters and a splash of water.",
+      "Muddle until the sugar is dissolved.",
+      "Fill the glass with ice cubes.",
+      "Pour bourbon over the ice and stir well.",
+      "Garnish with an orange twist."
+    ]
+  },
+  {
+    "image": "https://example.com/cocktail8.jpg",
+    "name": "Daiquiri",
+    "about": "A classic cocktail made with rum, lime juice, and simple syrup.",
+    "preparationTime": 3,
+    "rating": 4.3,
+    "ingredients": [
+      {
+        "name": "White rum",
+        "quantity": "2",
+        "unit": "ounces"
+      },
+      {
+        "name": "Lime juice",
+        "quantity": "1",
+        "unit": "ounce"
+      },
+      {
+        "name": "Simple syrup",
+        "quantity": "0.5",
+        "unit": "ounce"
+      },
+      {
+        "name": "Lime wheel",
+        "quantity": "1"
+      }
+    ],
+    "steps_to_prepare": [
+      "Fill a shaker with ice cubes.",
+      "Pour rum, lime juice, and simple syrup into the shaker.",
+      "Shake well until chilled.",
+      "Strain into a chilled cocktail glass.",
+      "Garnish with a lime wheel."
+    ]
+  },
+  {
+    "image": "https://example.com/cocktail9.jpg",
+    "name": "Whiskey Sour",
+    "about": "A classic cocktail made with whiskey, lemon juice, and simple syrup.",
+    "preparationTime": 4,
+    "rating": 4.1,
+    "ingredients": [
+      {
+        "name": "Bourbon or rye whiskey",
+        "quantity": "2",
+        "unit": "ounces"
+      },
+      {
+        "name": "Lemon juice",
+        "quantity": "0.75",
+        "unit": "ounce"
+      },
+      {
+        "name": "Simple syrup",
+        "quantity": "0.5",
+        "unit": "ounce"
+      },
+      {
+        "name": "Lemon wheel",
+        "quantity": "1"
+      },
+      {
+        "name": "Maraschino cherry",
+        "quantity": "1"
+      }
+    ],
+    "steps_to_prepare": [
+      "Fill a shaker with ice cubes.",
+      "Pour whiskey, lemon juice, and simple syrup into the shaker.",
+      "Shake well until chilled.",
+      "Strain into a rocks glass filled with ice.",
+      "Garnish with a lemon wheel and a maraschino cherry."
+    ]
+  },
+  {
+    "image": "https://example.com/cocktail10.jpg",
+    "name": "Gin and Tonic",
+    "about": "A classic cocktail made with gin and tonic water, garnished with a lime wedge.",
+    "preparationTime": 2,
+    "rating": 4.5,
+    "ingredients": [
+      {
+        "name": "Gin",
+        "quantity": "2",
+        "unit": "ounces"
+      },
+      {
+        "name": "Tonic water",
+        "quantity": "4",
+        "unit": "ounces"
+      },
+      {
+        "name": "Lime wedge",
+        "quantity": "1"
+      }
+    ],
+    "steps_to_prepare": [
+      "Fill a glass with ice cubes.",
+      "Pour gin over the ice.",
+      "Top with tonic water.",
+      "Stir gently.",
+      "Garnish with a lime wedge."
+    ]
+  },
+  {
+    "image": "https://example.com/cocktail1.jpg",
+    "name": "rsvsveot",
+    "about": "A refreshing cocktail made with rum, mint, lime, sugar,dvsvsdv and soda water.",
+    "preparationTime": 550,
+    "rating": 45.255,
+    "ingredients": [
+      {
+        "name": "White rum",
+        "quantity": "20",
+        "unit": "ounces"
+      },
+      {
+        "name": "Fresh mint leaves",
+        "quantity": "60",
+        "unit": "leaves"
+      },
+      {
+        "name": "Lime",
+        "quantity": "375",
+        "unit": "ounce"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "20",
+        "unit": "teaspoons"
+      },
+      {
+        "name": "Soda water",
+        "quantity": "20",
+        "unit": "ounces"
+      }
+    ],
+    "steps_to_prepare": [
+      "In a glass, muddle mint leaves and lime juice with sugar.",
+      "Fill the glass with ice cubes.",
+      "Pour rum over the ice and top with soda water.",
+      "Stir gently and garnish with a mint sprig."
+    ]
+  }
+]
