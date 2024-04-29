@@ -13,6 +13,22 @@ const port = process.env.PORT || 5000;
 app.use(express.json());
 app.use(cors());
 
+const mockData = require('./mockdata.json');
+
+app.get('/api/cocktails', (req, res) => {
+  res.json(mockData);
+});
+
+app.get('/api/cocktails/:name', (req, res) => {
+  const { name } = req.params;
+  const cocktail = mockData.find(cocktail => cocktail.name.toLowerCase() === name.toLowerCase());
+  if (cocktail) {
+    res.json(cocktail);
+  } else {
+    res.status(404).json({ message: 'Cocktail not found' });
+  }
+});
+
 app.get('/',(req,res)=>{
     res.send('Welcome to Backend server of Fusion Drink');
 })
