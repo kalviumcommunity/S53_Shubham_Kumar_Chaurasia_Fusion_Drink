@@ -39,7 +39,8 @@ function Home() {
             </Link>
           </div>
           <div className="login">
-            <Link to="/login"><button class="button-64" role="button"><span class="text">LOGIN</span></button></Link>
+            {/* <Link to="/login"><button class="button-64" role="button"><span class="text">LOGIN</span></button></Link> */}
+            LOGIN
           </div>
         </nav>
         <div className="homeContainer">
