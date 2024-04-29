@@ -51,6 +51,19 @@ app.post('/api/cocktails', (req, res) => {
   }
 });
 
+app.put('/api/cocktails/:name', (req, res) => {
+  const { name } = req.params;
+  const updatedCocktail = req.body;
+  const index = mockData.findIndex(cocktail => cocktail.name.toLowerCase() === name.toLowerCase());
+  if (index !== -1) {
+    mockData[index] = { ...mockData[index], ...updatedCocktail };
+    saveMockDataToFile(mockData); 
+    res.json({ message: 'Cocktail updated successfully.', updatedCocktail: mockData[index] });
+  } else {
+    res.status(404).json({ message: 'Cocktail not found' });
+  }
+});
+
 // app.get('/',(req,res)=>{
 //     res.send('Welcome to Backend server of Fusion Drink');
 // })

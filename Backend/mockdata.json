@@ -397,5 +397,65 @@
       "Pour rum over the ice and top with soda water.",
       "Stir gently and garnish with a mint sprig."
     ]
+  },
+  {
+    "image": "https://example.com/cocktail2.jpg",
+    "name": "Vodka cocktail",
+    "about": "A classic cocktail made with gin and vermouth, garnished with an olive or lemon twist.",
+    "preparationTime": 30,
+    "rating": 402,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "quantity": "205",
+        "unit": "ounces"
+      },
+      {
+        "name": "Dry vermouth",
+        "quantity": "025",
+        "unit": "ounce"
+      },
+      {
+        "name": "Olive or lemon twist",
+        "quantity": "20"
+      }
+    ],
+    "steps_to_prepare": [
+      "Fill a mixing glass with ice cubes.",
+      "Pour gin and vermouth into the glass.",
+      "Stir well until chilled.",
+      "Strain into a chilled martini glass.",
+      "Garnish with an olive or lemon twist."
+    ]
+  },
+  {
+    "image": "https://example.com/cocktail2.jpg",
+    "name": "Vodka_cocktail",
+    "about": "A classic cocktail made with gin and vermouth, garnished with an olive or lemon twist.",
+    "preparationTime": 3,
+    "rating": 4.2,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "quantity": "2.5",
+        "unit": "ounces"
+      },
+      {
+        "name": "Dry vermouth",
+        "quantity": "2.5",
+        "unit": "ounce"
+      },
+      {
+        "name": "Olive or lemon twist",
+        "quantity": "1"
+      }
+    ],
+    "steps_to_prepare": [
+      "Fill a mixing glass with ice cubes.",
+      "Pour gin and vermouth into the glass.",
+      "Stir well until chilled.",
+      "Strain into a chilled martini glass.",
+      "Garnish with an olive or lemon twist."
+    ]
   }
 ]
