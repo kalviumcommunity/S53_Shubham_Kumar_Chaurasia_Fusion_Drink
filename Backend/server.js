@@ -1,72 +1,81 @@
 const express = require("express");
 const app = express();
-const fs = require('fs');
 const cors = require('cors');
 const dotenv = require("dotenv");
 const result = dotenv.config();
+const { ConnectToDB, stopDatabase, isConnected } = require('./database');
+const port = process.env.PORT || 5000;
+app.use(express.json());
+app.use(cors());
+ConnectToDB().then();
 
 if (result.error) {
     console.error("Error loading .env file:", result.error);
 }
 
-const port = process.env.PORT || 5000;
+const Cocktail = require('./Models/cocktailSchema');
 
-app.use(express.json());
-app.use(cors());
-
-const mockData = require('./mockdata.json');
-
-app.get('/api/cocktails', (req, res) => {
-  res.json(mockData);
+app.get("/", (req, res) => {
+    isConnected().then(connected => {
+        res.json({ message: connected ? "connected" : "disconnected" });
+    });
 });
 
-app.get('/api/cocktails/:name', (req, res) => {
-  const { name } = req.params;
-  const cocktail = mockData.find(cocktail => cocktail.name.toLowerCase() === name.toLowerCase());
-  if (cocktail) {
-    res.json(cocktail);
-  } else {
-    res.status(404).json({ message: 'Cocktail not found' });
-  }
+// To Get all data
+app.get('/api/cocktails', async (req, res) => {
+    try {
+        const cocktails = await Cocktail.find();
+        res.json(cocktails);
+    } catch (error) {
+        console.error('Error fetching cocktails:', error);
+        res.status(500).json({ message: 'Internal server error' });
+    }
 });
 
-const saveMockDataToFile = (mockData) => {
-  fs.writeFile('./mockdata.json', JSON.stringify(mockData, null, 2), (err) => {
-      if (err) {
-          console.error('Error writing to mockdata.json:', err);
-      } else {
-          console.log('Mock data saved to mockdata.json');
-      }
-  });
-};
-
-app.post('/api/cocktails', (req, res) => {
-  const newCocktail = req.body;
-  if (!newCocktail || !newCocktail.name || !newCocktail.about || !newCocktail.preparationTime || !newCocktail.ingredients || !newCocktail.steps_to_prepare) {
-    res.status(400).json({ message: 'Please provide all required fields for the new cocktail.' });
-  } else {
-    mockData.push(newCocktail);
-    saveMockDataToFile(mockData); 
-    res.status(201).json({ message: 'Cocktail added successfully.', newCocktail });
-  }
+// To Get data by Id
+app.get('/api/cocktails/:id', async (req, res) => {
+    const { id } = req.params;
+    try {
+        const cocktail = await Cocktail.findById(id);
+        if (cocktail) {
+            res.json(cocktail);
+        } else {
+            res.status(404).json({ message: 'Cocktail not found' });
+        }
+    } catch (error) {
+        console.error('Error fetching cocktail:', error);
+        res.status(500).json({ message: 'Internal server error' });
+    }
 });
 
-app.put('/api/cocktails/:name', (req, res) => {
-  const { name } = req.params;
-  const updatedCocktail = req.body;
-  const index = mockData.findIndex(cocktail => cocktail.name.toLowerCase() === name.toLowerCase());
-  if (index !== -1) {
-    mockData[index] = { ...mockData[index], ...updatedCocktail };
-    saveMockDataToFile(mockData); 
-    res.json({ message: 'Cocktail updated successfully.', updatedCocktail: mockData[index] });
-  } else {
-    res.status(404).json({ message: 'Cocktail not found' });
-  }
+// Create data
+app.post('/api/cocktails', async (req, res) => {
+    const newCocktail = req.body;
+    try {
+        const createdCocktail = await Cocktail.create(newCocktail);
+        res.status(201).json({ message: 'Cocktail added successfully.', newCocktail: createdCocktail });
+    } catch (error) {
+        console.error('Error creating cocktail:', error);
+        res.status(500).json({ message: 'Internal server error' });
+    }
 });
 
-// app.get('/',(req,res)=>{
-//     res.send('Welcome to Backend server of Fusion Drink');
-// })
+// Update data
+app.put('/api/cocktails/:id', async (req, res) => {
+    const { id } = req.params;
+    const updatedCocktail = req.body;
+    try {
+        const updated = await Cocktail.findByIdAndUpdate(id, updatedCocktail, { new: true });
+        if (updated) {
+            res.json({ message: 'Cocktail updated successfully.', updatedCocktail: updated });
+        } else {
+            res.status(404).json({ message: 'Cocktail not found' });
+        }
+    } catch (error) {
+        console.error('Error updating cocktail:', error);
+        res.status(500).json({ message: 'Internal server error' });
+    }
+});
 
 app.listen(port, (error) => {
     if (error) {
