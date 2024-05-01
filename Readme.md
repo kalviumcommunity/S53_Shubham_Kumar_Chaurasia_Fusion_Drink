@@ -1,4 +1,4 @@
-# [Fusion Drink](https://fusion_drink.netlify.app/)
+# [Fusion Drink](https://fusiondrink.vercel.app/)
 ## Idea
 
 I am excited to present an innovative idea that has a chance to completely transform your consume drinks and cocktails. I like to introduce a you to Fusion drink, a platform which may change your way to enjoy drinks.
