@@ -91,3 +91,399 @@ body {
     min-width: 196px;
   }
 }
+
+/* SignUp.css */
+.loginbody {
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* background-image: url('https://wallpapercave.com/wp/wp2172683.jpg'); */
+  width: 100vw;
+  /* background-image: url("blob:https://web.whatsapp.com/d4a296dd-f433-4a5e-bb67-50ca29ef822a"); */
+  /* background-image: url("./assets/BGI-login.jpeg"); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-position: bottom 20%; */
+}
+
+.logincontainer {
+  background-color: #000000a0;
+  margin-top: 2%;
+  margin-left: 5%;
+  width: 40%;
+  height: 90%;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: white;
+}
+
+div h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.4em;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.605);
+}
+
+div form,
+.heading {
+  /* margin-top: 70px; */
+  text-align: center;
+}
+
+.orsignupwith {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  color: #fff;
+  margin-top: 47px;
+}
+
+.border {
+  position: absolute;
+  width: 198.05px;
+  height: 1px;
+  left: 170px;
+  top: 853.1px;
+  border: 1px solid #ffffff;
+  transform: matrix(1, 0, 0.01, 1, 0, 0);
+}
+
+hr {
+  color: white;
+  width: 150px;
+  margin-top: 12px;
+}
+
+.googleappleicons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.googleappleicons div {
+  background-color: #b1b1b1;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 10px 25px 25px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* div div img {
+  height: 50px;
+} */
+
+form {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+form input {
+  width: 85%;
+  padding: 10px;
+  height: 0.1px;
+  background-color: #515151a0;
+}
+
+form button {
+  font-size: 1.3em;
+  background-color: white;
+  color: black;
+  width: 200px;
+  border-radius: 75px;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* login and sigup page */
+/* background-image: url('https://wallpapercave.com/wp/wp2172683.jpg'); */
+
+/* input style */
+.logininputs {
+  height: 200px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#passmarginbottom {
+  margin-bottom: 23px;
+}
+
+.wave-group {
+  position: relative;
+  margin: 50px;
+}
+.wave-group .input {
+  font-size: 16px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 350px;
+  border: none;
+  border-bottom: 1px solid #515151;
+  background: transparent;
+}
+
+.wave-group .input:focus {
+  outline: none;
+}
+
+.wave-group .label {
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 10px;
+  top: -25px;
+  /* display: flex; */
+}
+
+.wave-group .label-char {
+  transition: 0.2s ease all;
+  transition-delay: calc(var(--index) * 0.05s);
+}
+
+.wave-group .input:focus ~ label .label-char,
+.wave-group .input:valid ~ label .label-char {
+  transform: translateY(-100px);
+  font-size: 14px;
+}
+
+.wave-group .bar {
+  position: relative;
+  display: block;
+  width: 200px;
+}
+
+.wave-group .bar:before,
+.wave-group .bar:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 10px;
+  position: absolute;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.wave-group .bar:before {
+  left: 50%;
+}
+
+.wave-group .bar:after {
+  right: 50%;
+}
+
+.wave-group .input:focus ~ .bar:before,
+.wave-group .input:focus ~ .bar:after {
+  width: 50%;
+}
+
+/* Dashboard */
+
+.dashboardbody{
+  height: 100em;  
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.dashboardnav{
+  height: 50px;
+  width: 100vw;
+  background-color: #525252;
+  display: flex;
+  justify-content: space-around;
+}
+
+.firstContainer{
+  background-color: rgba(121, 48, 123, 0.72);
+  height: 200px;
+  width: 90%;
+  border-radius: 25px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0 40px; */
+}
+
+.firstContainer img{
+  height: 225px;
+  width: auto;
+}
+
+.randomCocktails{
+  display: flex;
+  justify-content: space-around;
+  height: 350px;
+  width: 95vw;
+  margin-top: 40px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ;
+}
+
+.randomcard{
+  height: 100%;
+  /* background-color: #1db643; */
+  width: 20%;
+  }
+  
+  .randomcard img{
+  border-radius: 25px;
+  height: 100%;
+  width: 100%;
+}
+
+.alcoholcon{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  height: 50px;
+  width: 95vw;
+}
+
+.alcobox{
+  /* height: 80%;
+  width: 50%; */
+  background-color: #ff0000;
+  border-radius: 25px;
+}
+
+.alcoimage img{
+  height: 100px;
+  width: 200px;
+}
+
+/* Login Button */
+  
+button{
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.google-login-btn {
+  background-color: rgba(121, 48, 123, 0.72);
+  padding: 0.8rem 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  border-radius: 1rem;
+  color: white;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+
+}
+
+.user-name {
+  /* background-color : rgba(121, 48, 123, 0.72); */
+  font-size: 20px;
+  margin: 8px;
+  /* font-weight: bold; */
+  color: #333;
+}
+
+@media (max-width: 480px) {
+  .google-login-btn {
+    border-radius: 10rem;
+    padding: 0.4rem;
+  }
+  .login-btn-txt {
+    display: none;
+  }
+  .google-logo {
+    width: 3.4rem;
+  }
+}
+
+/* Search bar */ 
+
+.rectangle81{
+  box-sizing: border-box;
+  position: absolute;
+  width: 470px;
+  height: 60px;
+  left: 706px;
+  top: 54px;
+  background: #EAEAEA;
+  border: 1px solid rgba(121, 48, 123, 0.72);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+.serchtext{
+  position: absolute;
+  width: 116px;
+  height: 36px;
+  left: 728px;
+  top: 68px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: rgba(121, 48, 123, 0.72);
+}
+
+.search-img{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 1117px;
+  top: 66px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #EAEAEA;
+  border-radius: 50px;
+  padding: 0px 10px;
+  margin: 20px 0; 
+  border: 1px solid rgba(121, 48, 123, 0.72);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 25px;
+  color: rgba(121, 48, 123, 0.72);
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: rgba(121, 48, 123, 0.72);
+}

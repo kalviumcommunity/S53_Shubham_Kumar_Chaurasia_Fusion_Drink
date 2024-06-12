@@ -1,0 +1,63 @@
+[
+    {
+      "name": "John Doe",
+      "username": "johndoe",
+      "password": "password123",
+      "wishlist": []
+    },
+    {
+      "name": "Jane Smith",
+      "username": "janesmith",
+      "password": "securepass",
+      "wishlist": []
+    },
+    {
+      "name": "Alice Johnson",
+      "username": "alicej",
+      "password": "alicepass",
+      "wishlist": []
+    },
+    {
+      "name": "Bob Brown",
+      "username": "bobb",
+      "password": "bobpass123",
+      "wishlist": []
+    },
+    {
+      "name": "Emma Davis",
+      "username": "emmad",
+      "password": "password1234",
+      "wishlist": []
+    },
+    {
+      "name": "Michael Wilson",
+      "username": "michaelw",
+      "password": "mikepass",
+      "wishlist": []
+    },
+    {
+      "name": "Sophia Martinez",
+      "username": "sophiam",
+      "password": "sophiapass",
+      "wishlist": []
+    },
+    {
+      "name": "William Taylor",
+      "username": "williamt",
+      "password": "willpass123",
+      "wishlist": []
+    },
+    {
+      "name": "Olivia Anderson",
+      "username": "oliviaa",
+      "password": "oliviapass",
+      "wishlist": []
+    },
+    {
+      "name": "James Garcia",
+      "username": "jamesg",
+      "password": "jamespass123",
+      "wishlist": []
+    }
+  ]
+  
